@@ -10,7 +10,10 @@ hello()
 # 2
 # A function named pack() that accepts three arguments, 
 #and returns a single list with the three arguments inside as list elements.
+def pack(item1, item2, item3):
+    return [item1, item2, item3]
 
+print("The items packed are:", pack("apple", "sandwich", "cookie"))
 
 # 3
 # A function called eat_lunch(). 
