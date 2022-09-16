@@ -2,6 +2,10 @@
 # A function named hello() that prints a greeting to the user. 
 #This function should accept no arguments and returns nothing.
 
+def hello():
+    print("Hello and greetings to you, mortal.")
+
+hello()
 
 # 2
 # A function named pack() that accepts three arguments, 
